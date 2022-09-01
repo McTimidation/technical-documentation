@@ -1,0 +1,48 @@
+html {
+    font-size:1.5em;
+    background-color: #F7CD83;
+}
+
+@media screen and (min-width: 600px) {
+    html {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    html {
+      background-color: lavender;
+    }
+  }
+
+main {
+    padding:10px;
+    margin-left: 260px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size:1.5em;
+}
+
+#navbar {
+    width: 250px;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding:10px;
+
+}
+
+.navitems {
+    height:100px;
+    font-size:1.5em;
+}
+
+section {
+    padding: 30px;
+}
